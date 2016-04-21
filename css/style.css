@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    margin-left: 25px;
+    width: auto;    
+    background-image: url(/img/4.png);
+    background-size: 200px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    position: relative;
+    left: -25px;
+    top:15px;
+    float:left;
+}
+.search{
+    position: relative;
+    width: 40%;
+    bottom: -40px;
+    float: left;
+    text-align: center;
+}
+.search input[type="search"]{
+    width: 100%;
+    height: 25px;
+}
+.search input[type="submit"]{
+    border: 0px;
+}
+.content{
+    clear: both;
+    float:left;
+    width: 75%;
+}
+.aside{
+    float:right;
+    width: 16%;
+}
+.aside ul{
+    margin: 0px;
+    padding: 0;
+}
+.caside{
+    float: left;
+    width: 20%;
+}
+.cctop{
+    display: inline-block;
+}
+.cctop > img{
+    width: 28%;
+}
+.cctop > span{
+display:  inline-block;
+}
+.menu ul{
+    display: block;
+    padding: 0px;
+    margin: 0px;     
+    margin-top:10px;
+    width: 100%;
+    position:relative;
+    right: 20px;
+}
+.menu li{
+    display: block;    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;    
+    vertical-align: middle;
+    overflow: hidden;
+}
+.menu a{
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    color: maroon;
+    background: #f1f1f1;
+    float: right;
+    width: 70%;
+    clear: none;
+}
+.menu a.active{
+    background: coral;
+    color: white;
+    width: 100%;    
+}
+.menu a:hover{
+    background: green;
+    color: white;
+    width: 100%;    
+}
+.contact{
+    clear: both;
+}
+.ccontent{
+    overflow: hidden;
+}
+.content{
+    padding:40px;
+    text-align: justify;
+}
+
+.regular{
+    font-family: second;
+    font-size: 14pt;
+}
+
+@font-face{
+    font-family: first;
+    src: url(/fonts/2_3.ttf);
+}
+@font-face{
+    font-family: second;
+    src: url(/fonts/cambria.ttc);
+}
+
+.main{
+    font-family: first, bold;
+    font-size: 18pt;
+    color: maroon;
+}
+
+.center{
+     text-align: center;
+}
+.bottommenu{
+    font-family: first, bold;
+    font-size: 14pt;
+    color: brown;
+}
+.bottommenu li{
+    display: inline;
+}
+
+.copy{
+    font-family: first, bold;
+    font-size: 12pt;
+    color: maroon;
+}
+#auth_block{
+    float: left;
+    margin: 0px 0px 20px 30px;
+    width: 20%;
+}
